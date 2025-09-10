@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Title>FunStripeLite Sample Application</Title>
+    <Description>A sample application demonstrating FunStripeLite usage patterns</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="StripeService.fs" />
+    <Compile Include="../webhooks/Events.fs" />
+    <Compile Include="../webhooks/WebhookHandler.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FunStripeLite" Version="*" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>

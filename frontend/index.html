@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FunStripeLite Sample - Payment Form</title>
+    <script src="https://js.stripe.com/v3/"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>FunStripeLite Sample Payment Form</h1>
+        
+        <div class="section">
+            <h2>Setup Intent - Save Payment Method</h2>
+            <p>This form demonstrates how to save a payment method for future use.</p>
+            
+            <form id="setup-form">
+                <div id="setup-card-element">
+                    <!-- Stripe Elements will create form elements here -->
+                </div>
+                <div id="setup-card-errors" role="alert"></div>
+                <button type="submit" id="setup-submit" disabled>Save Payment Method</button>
+            </form>
+            
+            <div id="setup-result" class="result hidden"></div>
+        </div>
+
+        <div class="section">
+            <h2>Payment Intent - Process Payment</h2>
+            <p>This form demonstrates how to process a one-time payment.</p>
+            
+            <div class="payment-amount">
+                <label for="amount">Amount (USD):</label>
+                <input type="number" id="amount" value="20.00" step="0.01" min="0.50">
+            </div>
+            
+            <form id="payment-form">
+                <div id="payment-card-element">
+                    <!-- Stripe Elements will create form elements here -->
+                </div>
+                <div id="payment-card-errors" role="alert"></div>
+                <button type="submit" id="payment-submit" disabled>Pay Now</button>
+            </form>
+            
+            <div id="payment-result" class="result hidden"></div>
+        </div>
+
+        <div class="section">
+            <h2>Integration Notes</h2>
+            <div class="notes">
+                <h3>Test Card Numbers</h3>
+                <ul>
+                    <li><strong>Success:</strong> 4242424242424242</li>
+                    <li><strong>Decline:</strong> 4000000000000002</li>
+                    <li><strong>3D Secure:</strong> 4000002500003155</li>
+                </ul>
+                
+                <h3>Backend Integration</h3>
+                <p>Your F# backend should:</p>
+                <ol>
+                    <li>Create customers using <code>StripeService.createCustomer</code></li>
+                    <li>Create setup/payment intents and return client secrets</li>
+                    <li>Handle webhooks for payment confirmation</li>
+                    <li>Update your database when payments complete</li>
+                </ol>
+                
+                <h3>Security</h3>
+                <ul>
+                    <li>Never include secret keys in frontend code</li>
+                    <li>Always validate payments on your backend</li>
+                    <li>Use webhooks for reliable payment status updates</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="stripe-integration.js"></script>
+</body>
+</html>
