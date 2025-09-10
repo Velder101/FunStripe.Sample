@@ -1,9 +1,8 @@
 # FunStripe / FunStripeLite Integration Guide
 
-**FunStripe** is an F# library that provides a functional wrapper around the Stripe API for payment processing. This guide demonstrates the essential patterns for integrating Stripe payments in your application.
+[**FunStripe**](https://github.com/simontreanor/FunStripe) is an F# library that provides a functional wrapper around the [Stripe](https://stripe.com/) API for payment processing. This guide demonstrates the essential patterns for integrating Stripe payments in your application.
 
-This repository uses FunStripeLite NuGet-package, but usage is identical to full FunStripe, just with a few dependencies removed.
-
+This repository uses FunStripeLite NuGet-package, but usage is identical to full FunStripe, just with a few dependencies removed. This repository is not using the official Stripe.net .NET integration, as avoiding that is exactly one key aims of the alternative, FunStripe.
 
 ## Overview
 
@@ -194,4 +193,5 @@ For production applications, consider implementing:
 
 - [Stripe API Documentation](https://stripe.com/docs/api)
 - [FunStripeLite on NuGet](https://www.nuget.org/packages/FunStripeLite/)
+
 - [Stripe Elements Documentation](https://stripe.com/docs/stripe-js)
